@@ -10,5 +10,13 @@
 // FizzBuzz
 // ...
 for(let numbers = 0; numbers <= 0; numbers += 1) {
+    if (numbers % 3 =  0) {
+        console.log(Fizz)
+    }
+    else if (numbers % 5 = 0) {
+        console.log(Buzz)
+    } else if (numbers % 3 + 5 = 0) {
+        console.log (FizzBuzz)
+    }
     console.log(numbers)
 }
