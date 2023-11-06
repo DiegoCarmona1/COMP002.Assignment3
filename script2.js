@@ -9,3 +9,6 @@
 // 14
 // FizzBuzz
 // ...
+for(let numbers = 0; numbers <= 0; numbers += 1) {
+    console.log(numbers)
+}
