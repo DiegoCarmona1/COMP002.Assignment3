@@ -9,14 +9,13 @@
 // 14
 // FizzBuzz
 // ...
-for(let numbers = 0; numbers <= 0; numbers += 1) {
-    if (numbers % 3 =  0) {
-        console.log(Fizz)
-    }
-    else if (numbers % 5 = 0) {
-        console.log(Buzz)
-    } else if (numbers % 3 + 5 = 0) {
-        console.log (FizzBuzz)
-    }
-    console.log(numbers)
+
+for(let number = 0; number < 101; number = number + 1) {
+    console.log(number)
+    if (number % 3 == 0) 
+        console.log("Fizz")
+    if (number % 5 == 0) 
+        console.log("Buzz")
+    if (number % 15 == 0) 
+        console.log("FizzBuzz")
 }

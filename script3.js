@@ -9,3 +9,18 @@
 //  # # # #
 // # # # #
 //  # # # #
+var chessPattern= "";
+var pHeight = 8;
+var pWidth =8;
+
+for( i=0; i<pWidth/2; i++){ // build line pattern * * * *
+chessPattern +="* ";
+}
+
+for( i=0; i<pHeight; i++) { // build board
+
+if (i%2==0) {console.log( " "+ chessPattern);} // odd line
+
+else {console.log(chessPattern);} // even line
+
+}
